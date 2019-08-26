@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment 2: Higher Lower</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- TODO: Display for inital random number -->
+<div id="initialNumberHolder"><p></p></div>
+<b>Please pick whether the next number will be Higher, Lower, or the same value.</b>
+<div>
+  
+  <input type="radio" id="higher" 
+         name="button" value="higher" checked />
+  <label for="higher">Higher</label>
+</div>
+
+<div>
+  <input type="radio" id="lower" 
+  name="button" value="lower" checked />
+<label for="lower">Lower</label>
+</div>
+
+<div>
+  <input type="radio" id="same" 
+         name="button" value="same" />
+  <label for="same">Same Value</label>
+</div>
+<div id="tryBtn">
+    <button onClick="displayResult()">Attempt</button>
+</div>
+<div id="clearBtn">
+    <button onClick="reset()">Clear</button>
+</div>
+<div id="results">
+  <p></p>
+</div>
+  <!--
+    TODO: Create HTML form with input for player selection
+      - Select (higher, lower, same)
+      - Text input (<input type="text"/>)
+      - Radio buttons
+
+    Submit button
+  -->
+
+  <!-- TODO: Display result -->
+
+  <script src="index.js"></script>
+</body>
+</html>
